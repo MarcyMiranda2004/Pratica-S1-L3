@@ -1,0 +1,102 @@
+/* Intestazione Della Pagina */
+#header {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+#header img {
+  width: 170px;
+}
+
+#header p {
+  font-size: 0.8em;
+  color: darkgreen;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(253, 247, 238);
+  border-top-style: solid;
+  border-color: rgb(222, 204, 181);
+}
+
+/* Titolazione Pagina */
+.titolo {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.titolo h1 {
+  text-align: center;
+  width: 40%;
+}
+
+.titolo p {
+  width: 45%;
+}
+
+.titolo img {
+  width: 700px;
+  border-style: solid;
+  border-color: aliceblue;
+  border-radius: 1.3em;
+}
+
+#sottotitolo {
+  text-align: center;
+  color: rgb(175, 175, 175);
+  margin-bottom: 1em;
+}
+
+/* Featured Della Pagina */
+#featured {
+  margin-left: 26em;
+  margin-bottom: 4em;
+}
+
+#featured p {
+  margin: 0;
+  padding-left: 1em;
+  border-left-style: solid;
+  border-left-color: rgb(239, 191, 112);
+  color: brown;
+}
+
+/* Ingredienti Ricetta */
+.ingredients {
+  margin-left: 27%;
+}
+
+.ingredients h3 {
+  border-bottom: 1.5px solid;
+  border-color: aquamarine;
+  padding-bottom: 1em;
+  width: 62%;
+}
+
+.ingredients li {
+  padding-bottom: 1em;
+}
+
+/* Procedimento Ricetta */
+.method {
+  margin-left: 27%;
+  width: 41%;
+}
+
+.method h3 {
+  border-bottom: 1.5px solid;
+  border-color: aquamarine;
+  padding-bottom: 1em;
+  width: 62%;
+}
+
+/* Footer */
+footer {
+  margin-left: 27%;
+}
+
+a {
+  color: rgb(91, 162, 138);
+}
